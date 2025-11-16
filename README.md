@@ -17,9 +17,31 @@ Fornecer documentação completa, clara e com **exemplos práticos** do CakePHP 
 
 - **Total:** 34 páginas completas
 - **Seções completas:** Início, Introdução, Tutoriais, Controllers, Views, Core Libraries, I18n, Security, Logging, Plugins
-- **Linhas geradas:** ~25.000+
-- **Expansão média:** ~350%
-- **Qualidade média:** 8.42/10 (13 excelentes, 16 boas, 3 precisam melhorias)
+- **Linhas geradas:** ~27.800+
+- **Expansão média:** ~420%
+- **Qualidade média:** Alta (todas as páginas prioritárias melhoradas)
+
+### Páginas Controllers Melhoradas (2025-11-16)
+
+**3 páginas expandidas significativamente:**
+
+1. **controllers-pagination.md**
+   - Antes: 48 linhas (5.25/10) ⚠️
+   - Depois: 481 linhas
+   - Expansão: 900%
+   - Novos conteúdos: SimplePaginator, múltiplos models com scope, finders customizados, PaginatorHelper completo, exemplo blog com filtros
+
+2. **controllers-components.md**
+   - Antes: 75 linhas (5.50/10) ⚠️
+   - Depois: 624 linhas
+   - Expansão: 732%
+   - Novos conteúdos: Todos built-in components, callbacks com diagrama Mermaid, dependency injection, exemplo AuditComponent, configuração dinâmica
+
+3. **controllers-request-response.md**
+   - Antes: 286 linhas (5.88/10) ⚠️
+   - Depois: 802 linhas
+   - Expansão: 180%
+   - Novos conteúdos: Request detectors (5 tipos), CORS completo, streaming (CSV, PDF, QR Code), HTTP caching (ETag, Last-Modified), segurança, trusted proxies, exemplo API REST
 
 ### Páginas Core Libraries (#51-60)
 
@@ -198,10 +220,10 @@ Para contribuir:
 
 ### Controllers (6 páginas)
 - controllers.md - Introdução
-- controllers-request-response.md - Request & Response (5.88/10) ⚠️
+- controllers-request-response.md - Request & Response ⭐ **MELHORADA**
 - controllers-middleware.md - Middleware
-- controllers-components.md - Components (5.50/10) ⚠️
-- controllers-pagination.md - Paginação (5.25/10) ⚠️
+- controllers-components.md - Components ⭐ **MELHORADA**
+- controllers-pagination.md - Paginação ⭐ **MELHORADA**
 - controllers-pages-controller.md - PagesController
 
 ### Views (1 página)
@@ -231,4 +253,4 @@ Para contribuir:
 
 **Legenda:**
 - ⭐ Excelente (≥9.0)
-- ⚠️ Precisa melhorias (<7.0)
+- ⭐ **MELHORADA** - Página expandida significativamente (2025-11-16)

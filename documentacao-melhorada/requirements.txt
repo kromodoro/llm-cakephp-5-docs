@@ -1,0 +1,23 @@
+# MkDocs Material - Documentação CakePHP PT-BR
+# Instalação: pip install -r requirements.txt
+
+# Core MkDocs
+mkdocs>=1.5.0
+
+# MkDocs Material Theme
+mkdocs-material>=9.5.0
+
+# Markdown Extensions (incluídas com Material, mas listadas para referência)
+# Pygments para syntax highlighting
+pygments>=2.16.0
+
+# PyMdown Extensions (incluídas com Material)
+pymdown-extensions>=10.7.0
+
+# Markdown básico
+Markdown>=3.5.0
+
+# Opcional: Plugins adicionais
+# mkdocs-minify-plugin  # Minifica HTML/CSS/JS
+# mkdocs-redirects      # Gerencia redirects
+# mkdocs-git-revision-date-localized-plugin  # Adiciona data de revisão
